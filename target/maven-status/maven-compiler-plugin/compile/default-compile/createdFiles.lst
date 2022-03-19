@@ -1,0 +1,5 @@
+mx/com/cuamatziinc/ventas/categoryservice/service/IServiceCategory.class
+mx/com/cuamatziinc/ventas/categoryservice/repository/IRepositoryCategory.class
+mx/com/cuamatziinc/ventas/categoryservice/service/imp/ServiceCategory.class
+mx/com/cuamatziinc/ventas/categoryservice/CategoryServiceApplication.class
+mx/com/cuamatziinc/ventas/categoryservice/controller/ControllerCategory.class

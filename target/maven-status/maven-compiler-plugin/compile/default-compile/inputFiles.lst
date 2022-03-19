@@ -1,0 +1,5 @@
+/desarrollo/ventas/backend/category-service/src/main/java/mx/com/cuamatziinc/ventas/categoryservice/repository/IRepositoryCategory.java
+/desarrollo/ventas/backend/category-service/src/main/java/mx/com/cuamatziinc/ventas/categoryservice/CategoryServiceApplication.java
+/desarrollo/ventas/backend/category-service/src/main/java/mx/com/cuamatziinc/ventas/categoryservice/controller/ControllerCategory.java
+/desarrollo/ventas/backend/category-service/src/main/java/mx/com/cuamatziinc/ventas/categoryservice/service/IServiceCategory.java
+/desarrollo/ventas/backend/category-service/src/main/java/mx/com/cuamatziinc/ventas/categoryservice/service/imp/ServiceCategory.java
