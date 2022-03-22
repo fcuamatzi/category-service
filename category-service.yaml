@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: category-service-deployment
+  labels:
+    app: category-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: category-service
+  template:
+    metadata:
+      labels:
+        app: category-service
+        type: backend
+    spec:
+      containers:
+      - name: category-service
+        image: fjcuamatzi/category-service:0.0.8
+        ports:
+        - containerPort: 8080
+        env:
+        - name: MI_VARIABLE
+          value: "variable de entorno"
+        - name: NODE_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: spec.nodeName
+              
+              
+              
+              
